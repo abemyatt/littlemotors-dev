@@ -97,7 +97,7 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 24px;
+    gap: 1.25rem;
 
     width: 100%;
     max-width: var(--max-width);
