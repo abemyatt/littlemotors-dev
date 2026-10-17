@@ -11,7 +11,7 @@
     --border: #E7DFC9;
 
     --radius: 20px;
-    --max-width: 1100px;
+    --max-width: 70%;
     --header-font: "Brush Script MT";
     --font: "Verdana";
 }
@@ -28,6 +28,10 @@
 
 :target {
     scroll-margin: 20vb;
+}
+
+html {
+    scrollbar-gutter: stable;
 }
 
 body {
@@ -59,13 +63,13 @@ header h1 {
 
     color: #FFFFFF;
     font-family: var(--header-font), cursive;
-    font-size: 3.2rem;
+    font-size: 4rem;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    gap: 1rem;
 
     margin: 0;
     padding: 0;
@@ -74,13 +78,13 @@ nav ul {
 
 nav a {
     display: block;
-    padding: 7px 24px;
+    padding: 0.5rem 1.75rem;
 
     color: #FFFFFF;
     text-decoration: none;
     font-size: 1.4rem;
-    font-weight: 700;
-    border-radius: 999px;
+    font-weight: bold;
+    border-radius: 50%/100%;
 }
 
 nav a:hover {
