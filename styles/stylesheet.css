@@ -20,6 +20,16 @@
     box-sizing: border-box;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+:target {
+    scroll-margin: 20vb;
+}
+
 body {
     display: flex;
     flex-direction: column;
