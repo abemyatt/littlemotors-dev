@@ -142,3 +142,43 @@ footer {
     text-align: center;
     font-size: 1.15rem;
 }
+
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    nav ul li {
+        flex-basis: 100%;
+        margin: 0 50%;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .content h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .content p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+}
