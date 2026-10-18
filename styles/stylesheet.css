@@ -78,18 +78,14 @@ nav ul {
     list-style: none;
 }
 
-nav ul li {
-    font-family: var(--nav-font), cursive;
-    font-size: 3rem;
-}
-
 nav a {
     display: block;
     padding: 0.5rem 1.75rem;
 
     color: #FFFFFF;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-family: var(--nav-font), cursive;
+    font-size: 2rem;
     font-weight: bold;
     border-radius: 50% / 100%;
 }
