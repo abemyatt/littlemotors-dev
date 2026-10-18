@@ -1,4 +1,4 @@
-# littlemotors-dev
+# littlemotors.dev
 The source of littlemotors.dev
 
 ## Licensing
