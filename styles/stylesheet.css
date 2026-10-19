@@ -133,6 +133,23 @@ main {
   margin-bottom: 0;
 }
 
+.not-found-content {
+  padding: 2rem 2.2rem;
+
+  background: var(--surface);
+  border: 0.2rem solid var(--border);
+  border-radius: var(--radius);
+
+  font-family: var(--font);
+}
+
+.not-found-button:focus-visible {
+  outline: 2px solid var(--border);
+}
+.not-found-button a {
+  color: var(--text-muted);
+}
+
 footer {
   padding: 1.8rem 1.6rem;
 
@@ -172,6 +189,17 @@ footer {
   }
 
   .content p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .not-found-content h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .not-found-button a {
+    display: block;
     font-size: 1rem;
     text-align: center;
   }
